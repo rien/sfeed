@@ -4,7 +4,7 @@ NAME = sfeed
 VERSION = 0.9.15
 
 # paths
-PREFIX = /usr/local
+PREFIX = /home/rien/.local/
 MANPREFIX = ${PREFIX}/man
 DOCPREFIX = ${PREFIX}/share/doc/${NAME}
 
@@ -17,11 +17,11 @@ SFEED_CPPFLAGS = -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_BSD_SOURCE
 
 BIN = \
 	sfeed\
+	sfeed_mbox\
 	sfeed_atom\
 	sfeed_frames\
 	sfeed_gopher \
 	sfeed_html\
-	sfeed_mbox\
 	sfeed_opml_import\
 	sfeed_plain\
 	sfeed_twtxt\
